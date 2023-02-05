@@ -1,0 +1,21 @@
+.loadMusic {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(19, 12, 28);
+  width: 100%;
+  height: var(--default-height-loadMusic);
+  padding: 10px 30px;
+}
+.loadMusic-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-left {
+  .left-img {
+    .img-mus {
+      height: 50px;
+      width: 50px;
+    }
+  }
+}

@@ -1,0 +1,239 @@
+.home {
+  background-color: var(--primary);
+  width: 100%;
+  // padding: 0 50px;
+  // padding-right: 270px;
+}
+.header-slider {
+  position: relative;
+  cursor: pointer;
+  .prev-next {
+    position: absolute;
+    display: flex;
+    width: var(--width-prev-next);
+    height: var(--height-slider);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    top: calc(var(--top-prev-next) - 120px);
+    // background-color: red;
+    z-index: 1;
+    :hover {
+      display: block;
+    }
+    .prev,
+    .next {
+      font-size: 5rem;
+    }
+    .prev {
+      padding-right: 10px;
+    }
+  }
+}
+.img-slider-items {
+  position: relative;
+  display: flex;
+  width: var(--width-slider);
+  height: var(--height-slider);
+  overflow: hidden;
+}
+.slider__img {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin-right: 10px;
+  .img-sl {
+    width: 370px;
+    height: 215px;
+    border-radius: 10px;
+  }
+}
+.zing-chart {
+  margin-top: 20px;
+  h2 {
+    font-weight: 700;
+  }
+  .zing-chart-img {
+    margin-top: 10px;
+    border-radius: 10px;
+    img {
+      margin-bottom: 5px;
+      border-radius: 10px;
+      height: 150px;
+      width: 150px;
+    }
+  }
+  p {
+    font-weight: 800;
+  }
+}
+
+.content-home {
+  margin-top: 30px;
+}
+.content-header {
+  .header-filler {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.header-filler-left {
+  :hover {
+    &.btn-filler {
+      filter: brightness(0.9);
+      color: rgba(89, 84, 96, 0.8);
+    }
+  }
+  .btn-filler {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid rgba(89, 84, 96, 0.1);
+    background: transparent;
+    color: var(--text-color);
+    margin-right: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .actve-filler-color {
+    background-color: rgb(155, 77, 224);
+  }
+}
+.header-filler-right {
+  display: flex;
+  align-items: center;
+  color: rgba(89, 84, 96, 4);
+  font-size: 1.5rem;
+  .all-filler {
+    margin-right: 10px;
+  }
+}
+//List Music
+
+.list-music {
+  margin-top: 20px;
+  .list-music-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.music-items {
+  margin-right: 30px;
+  :hover {
+    background: rgba(89, 84, 96, 0.2);
+    border-radius: 10px;
+  }
+  .music-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-left: 0;
+    :hover {
+      background: transparent;
+      &.icon-left-list {
+        background-color: rgb(89, 84, 96);
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.list-music-img {
+  padding-right: 10px;
+  position: relative;
+  cursor: pointer;
+  .icon-list-music {
+    position: absolute;
+    left: 45px;
+    top: 35px;
+    font-size: 2rem;
+  }
+  img {
+    border-radius: 5px;
+  }
+}
+.list-music-title {
+  display: flex;
+  flex-direction: column;
+  color: rgba(89, 84, 96, 4);
+  font-weight: 600;
+  font-size: 1.4rem;
+  .name-song {
+    cursor: pointer;
+  }
+  :first-child {
+    font-size: 1.8rem;
+    color: var(--text-color);
+  }
+  :hover {
+    &.name-song {
+      color: rgb(155, 77, 224);
+      text-decoration: underline;
+    }
+  }
+}
+
+.icon-left-list {
+  margin-left: 120px;
+  border: 1px solid transparent;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  cursor: pointer;
+  .icon-left-ellipsis {
+    padding: 8px;
+  }
+}
+//Top List
+.topList {
+  margin-top: 30px;
+  .list-top {
+    .list-items {
+      margin-top: 20px;
+    }
+  }
+}
+.list-item {
+  position: relative;
+  width
+  .item-img {
+    img {
+      border-radius: 10px;
+    }
+  }
+ 
+}
+.item-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  left: 15px;
+  top: 100px;
+  color: red;
+  .icon-left,
+  .icon-center,
+  .icon-right {
+    padding: 0 20px;
+  }
+  .icon-center {
+    font-size: 5rem;
+  }
+}
+.item-title {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  .name-title {
+    font-size: 1.8rem ;
+    font-weight: 700;
+  }
+}

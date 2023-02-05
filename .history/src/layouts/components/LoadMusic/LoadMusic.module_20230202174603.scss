@@ -1,0 +1,12 @@
+.loadMusic {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(19,12,28);
+  width: 100%;
+  height: 100%;
+}
+.loadMusic-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
