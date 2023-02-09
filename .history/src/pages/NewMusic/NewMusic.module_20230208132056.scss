@@ -1,0 +1,23 @@
+.newmusic {
+  width: 100%;
+}
+.newmusic-title {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  h1 {
+    margin-right: 10px;
+  }
+  .title-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: rgb(155, 77, 224);
+    font-size:  2rem;
+    .tit-iconplay {
+        margin-left: 10px;
+    }
+  }
+}

@@ -67,7 +67,7 @@ function Home() {
       </div>
       <div className={cx('content-home')}>
         <div className={cx('content-header')}>
-          <h1>Mới Phát Hành</h1></h1>
+          <h1>Mới Phát Hành</h1>
         </div>
       </div>
     </div>

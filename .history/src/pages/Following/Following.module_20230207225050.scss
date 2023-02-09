@@ -1,0 +1,41 @@
+.following {
+  background-color: var(--primary);
+  width: 100%;
+  .following-container {
+  }
+}
+.topsinger-bottom {
+  position: relative;
+  margin-top: 30px;
+  .prev-next {
+    position: absolute;
+    top: 60px;
+    left: -35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 7rem;
+    width: 1240px;
+    z-index: 1;
+    cursor: pointer;
+    :hover {
+      &.prev,
+      &.next {
+        opacity: 0.8;
+      }
+    }
+    .next {
+      margin-right: -60px;
+    }
+  }
+}
+.topsinger-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .topsinger-item {
+    .item-img {
+      height: 190px;
+    }
+  }
+}
