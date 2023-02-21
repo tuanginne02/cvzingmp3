@@ -1,0 +1,34 @@
+.category {
+    width: 100%;
+}
+.banner-event {
+    margin-top: 30px;
+    width: 100%;
+    height: 50%;
+    .img-banner {
+        width: 100%;
+        height: 50%;
+    }
+}
+.category-items {
+    margin-top: 100px;
+   .category-outstanding {
+    .outstanding-title {
+        font-size: 2rem;
+        color: #fff;
+    }
+    .outstanding-items {
+        margin-top: 30px;
+        display:flex;
+        .outstanding-item {
+            position: relative;
+            span {
+                
+            }
+            .item-img {
+                border-radius: 10px;;
+            }
+        }
+    }
+   }
+}

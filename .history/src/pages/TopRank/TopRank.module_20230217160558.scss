@@ -1,0 +1,34 @@
+.topRank {
+  width: 100%;
+}
+
+.toprank-items {
+  margin-top: 30px;
+  .item-content {
+    display: flex;
+  }
+}
+.toprank-item {
+  .item-title {
+    margin-bottom: 20px;
+  }
+  .toprank-img {
+    margin-bottom: 5px;
+    img {
+        width: 100%;
+        height: 50%;
+    }
+  }
+  .toprank-description {
+    color: rgb(145, 145, 145);
+
+    p {
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.
+    }
+    span {
+      margin-right: 5px;
+    }
+  }
+}

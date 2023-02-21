@@ -1,0 +1,147 @@
+.mv {
+  width: 100%;
+}
+.mv-header {
+  border-bottom: 1px solid rgb(47, 39, 57);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  .mv-title {
+    border-right: 1px solid rgb(47, 39, 57);
+    margin-right: 20px;
+    padding: 0 10px;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+  }
+  .mv-country {
+    font-size: 2rem;
+  
+  span {
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ffffff8a;
+    ::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      border-bottom: 2px solid rgb(155, 77, 224);
+    }
+  }
+}
+}
+.mv-content {
+  margin-top: 20px;
+}
+
+//MV - VN
+.mvvn,
+.mvussk,
+.mvkp,
+.mvht {
+  .mvvn-container,
+  .mvusk-container,
+  .mvkp-container,
+  .mvht-container {
+    .vn-header,
+    .usk-header,
+    .kp-header,
+    .ht-header {
+      .header-filler {
+        display: flex;
+        .btn-all,
+        .btn-listien {
+          :first-child {
+            margin-right: 10px;
+            margin-left: 0px;
+          }
+          margin-right: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px 40px;
+          padding-left: 10px;
+          border-radius: 25px;
+          background-color: rgb(47, 39, 57);
+          font-size: 2.5rem;
+          p {
+            margin-right: 10px;
+          }
+          .icon-search {
+            position: relative;
+            margin-left: 10px;
+
+            .list-search {
+              position: absolute;
+              top: -15px;
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+    }
+    .vn-content,
+    .usk-content,
+    .kp-content,
+    .ht-content {
+      margin-top: 50px;
+      .content-items {
+        .content-item {
+          .mv-img {
+            position: relative;
+            img {
+              width: 40%;
+              height: 50%;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.s-time,
+.i-play {
+  position: absolute;
+}
+.i-play {
+  font-size: 10.5rem;
+  top: 30%;
+  left: 15%;
+}
+.s-time {
+  top: 80%;
+  font-size: 2rem;
+  left: 33%;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.mv-sigle {
+  display: flex;
+  margin-top: 20px;
+  .sig-img {
+    margin-right: 20px;
+    img {
+      height: 75px;
+      width: 75px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+    }
+  }
+  .sig-name {
+    color: rgb(89, 83, 97);
+    font-size: 1.8rem;
+    font-weight: 600;
+    span {
+      color: #fff;
+      font-size: 2.5rem;
+    }
+  }
+}

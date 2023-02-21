@@ -1,0 +1,17 @@
+.theme {
+  width: 100%;
+  margin-top: calc(var(--default-layout-header-height) + 210px);
+  display: flex;
+  justify-content: center;
+  background-color: rgba(34, 34, 34, 0.324);
+}
+.theme-container {
+  height: 500px;
+  width: 500px;
+  z-index: 0;
+}
+.theme-content {
+  background-color: #fff;
+  height: 500px;
+  width: 500px;
+}

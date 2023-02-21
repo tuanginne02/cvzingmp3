@@ -1,0 +1,54 @@
+.mv {
+  width: 100%;
+}
+.mv-header {
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  .mv-title {
+    border-right: 1px solid #fff;
+    margin-right: 20px;
+    padding: 0 10px;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+  }
+  .mv-country {
+    font-size: 2rem;
+    span {
+      margin-right: 20px;
+    }
+  }
+}
+.mv-content {
+  margin-top: 20px;
+}
+
+//MV - VN
+.mvvn,
+.mvussk,
+.mvkp,
+.mvht {
+  .mvvn-container,
+  .mvusk-container,
+  .mvkp-container,
+  .mvht-container {
+    .vn-header,
+    .usk-header,
+    .kp-header,
+    .ht-header {
+      .header-filler {
+        display: flex;
+        .btn-all,
+        margin-right: 20px;
+        .btn-listien {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
