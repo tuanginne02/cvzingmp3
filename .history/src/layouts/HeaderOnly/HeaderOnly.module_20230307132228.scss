@@ -1,0 +1,25 @@
+.container,
+.content {
+  position: relative;
+  min-height: 1000px;
+  width: 100%;
+}
+.container {
+    margin-top: var(--default-layout-header-height);
+    width: var(--default-layout-header-width);
+    min-height: 5500px;
+    // height: 30000px;
+    height: 150%;
+    overflow: hidden;
+    padding: 0 50px;
+    // padding: 0 var(--default-layout-horizontal-spacer);
+    // border: 2px solid #fff;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    // background-color: var(--primary);
+  
+  }

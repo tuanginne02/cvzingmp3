@@ -1,0 +1,35 @@
+.update-vip {
+  position: relative;
+  .img-banner {
+    img {
+      width: 100%;
+    }
+  }
+}
+.update-vip-container {
+  position: absolute;
+  top: 0;
+  margin-top:( var(--default-layout-header-height));
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .update-vip-content {
+    overflow: hidden;
+  }
+}
+.img-faveicon {
+  text-align: center;
+}
+.header-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--white);
+  font-family: 'SFCompactDisplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  p {
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}

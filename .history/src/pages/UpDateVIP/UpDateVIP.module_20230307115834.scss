@@ -1,0 +1,12 @@
+.header-v {
+    position: fixed;
+    top: 0;
+    background-color: var(--primary);
+    width: 100%;
+    height: var(--default-layout-header-height);
+    padding: 0 50px;
+    padding-top: 20px;
+    padding-right: 270px;
+    margin-left: calc(var(--default-layout-header-margin) + 250px);
+    z-index: 1;
+  }

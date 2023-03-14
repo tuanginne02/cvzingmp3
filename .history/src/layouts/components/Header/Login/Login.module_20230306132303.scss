@@ -1,0 +1,42 @@
+.login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(34, 34, 34, 0.632);
+  position: fixed;
+  left: 0;
+  z-index: 0;
+}
+.login-content {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  height: 100%;
+  .login-img {
+    position: absolute;
+    img {
+      // width: 100%;
+    //   height: 100%;
+      border-radius: 10px;
+    }
+  }
+  .login-icon {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    z-index: 999;
+    .icon-close {
+      font-size: 5rem;
+    }
+  }
+  .login-zalo {
+    position: absolute;
+    z-index: 999;
+    .img-zalo {
+        width: 50%;
+        height: 50%;
+        border-radius: 10px;
+    }
+  }
+}

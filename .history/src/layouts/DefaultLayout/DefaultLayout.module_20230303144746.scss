@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary);
+  position: relative;
+}
+.container {
+  margin-top: calc(var(--default-layout-content-margin) + 100px);
+  margin-left: 175px;
+  width: var(--default-layout-header-width);
+  max-width: 100%;
+  // min-height: 10000px;
+  // height: 30000px;
+  height: 150%;
+  overflow: hidden;
+  padding: 0 50px;
+  // padding: 0 var(--default-layout-horizontal-spacer);
+  // border: 2px solid #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  // background-color: var(--primary);
+
+}

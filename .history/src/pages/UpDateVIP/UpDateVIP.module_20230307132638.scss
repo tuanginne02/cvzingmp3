@@ -1,0 +1,19 @@
+.update-vip {
+  position: relative;
+  .img-banner {
+    img {
+      width: 100%;
+    }
+  }
+}
+.update-vip-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .update-vip-content {
+    width: 100%;
+    overflow: hidden;
+  }
+}

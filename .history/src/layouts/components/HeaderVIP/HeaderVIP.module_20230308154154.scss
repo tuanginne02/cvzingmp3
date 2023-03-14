@@ -1,0 +1,128 @@
+.header-vip {
+  position: fixed;
+  top: 0;
+  background-color: var(--primary);
+  color: var(--white);
+  width: 100%;
+  height: var(--default-layout-header-height);
+  padding: 0 50px;
+  padding-top: 20px;
+  z-index: 1;
+}
+.header-vip-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.header-vip-left,
+.header-vip-right {
+  cursor: pointer;
+}
+
+//Header-left
+.header-vip-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-logo {
+  width: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  img {
+    width: 120px;
+    margin-left: 20px;
+  }
+}
+.left-items {
+  display: flex;
+  margin-left: 100px;
+  .left-item {
+    position: relative;
+    margin-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+      color: #ffd94e;
+    }
+    span {
+      font-size: 2rem;
+      margin-right: 10px;
+    }
+  }
+}
+.left-item-list {
+  position: absolute;
+  .list-items {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 200%;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    .list-item {
+      color: #000;
+      padding: 20px 40px;
+      border-radius: 10px;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #ffd94e;
+      }
+    }
+  }
+}
+
+//Header-right
+.header-vip-right {
+  position: relative;
+}
+.user-no-login {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.user-login {
+  display: flex;
+}
+.img-user {
+  margin-right: 20px;
+  img {
+    height: 39px;
+    width: 40px;
+    border-radius: 50%;
+    :hover {
+      opacity: 0.8;
+    }
+  }
+}
+.name-user {
+  font-weight: bold;
+  &:hover {
+    color: #ffd94e;
+  }
+  span {
+    font-size: 2rem;
+    margin-right: 5px;
+  }
+}
+.right-item-list {
+  position: absolute;
+  bottom: -70px;
+  right: 100px;
+  .list-items {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 200%;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    .list-item {
+      color: #000;
+      padding: 20px 40px;
+      border-radius: 10px;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #ffd94e;
+      }
+    }
+  }
+}

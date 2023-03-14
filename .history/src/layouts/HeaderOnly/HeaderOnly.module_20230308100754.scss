@@ -1,0 +1,11 @@
+.container,
+.content {
+  position: relative;
+  margin-top: var(--default-layout-header-height);
+  min-height: 1000px;
+  width: 100%;
+}
+.header-vip-left, 
+.header-vip-right {
+  cursor: pointer;
+}

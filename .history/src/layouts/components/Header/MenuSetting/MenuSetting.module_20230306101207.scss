@@ -1,0 +1,17 @@
+.setting {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  right: 23%;
+  z-index: 0;
+}
+height: 100%;
+
+.setting-container {
+  background-color: rgb(155, 77, 224);
+  border-radius: 20px;
+}
+.setting-items {
+    padding: 10px 5px;
+}
